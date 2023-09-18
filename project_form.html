@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2{
+            color: rgb(64, 64, 213);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <form action="">
+    <h1 style="color: red"> PAYMENT FORM</h1>
+    <h2>USER INFORMATION</h2>
+    <p>First Name :* <input type="text"required></p>
+    <p>Last Name : <input type="text"></p>
+    <fieldset>
+    <p><legend>GENDER</legend>
+        <p>Male : * <input type="radio" name="Gender" id="Male" required></p>
+        <p>Female : *<input type="radio" name="Gender" id="Female"required></p>
+    </p>
+    </fieldset>
+    <p>Email :<input type="email" name="email" id="gmail"></p>
+    <p>Birth date: <input type="date" name="Date" id="date"></p>
+    <p>Address : <textarea name="address" id="address" cols="20" rows="5"></textarea></p>
+    <p>State :
+        <select name="state" id="state">
+        <option value=">--State--<"></option>
+        <option value="Maharashtra"></option>
+        <option value="Delhi"></option>
+        <option value="Karnataka"></option>
+        <option value="MP"></option>
+        <option value="UP"></option>
+        <option value="Jammu"></option>
+
+    </select></p>
+    <p>Pincode : <input type="number" name="pincode" id="pincode" required></p>
+    <p>Phone number<input type="password" name="number" id="number"></p>
+    
+    <h3>PAYMENT INFORMATION</h3>
+    
+    <p>Card Types: 
+        <select name="card type" id="type">
+        <option value=">--card types--<"></option>
+        <option value="debit card"></option>
+        <option value="atm card"></option>
+        <option value="UPI Payment"></option>
+        </select>
+    </p>
+    <p><input type="submit" value="submit"></p>
+
+    </div>
+    </form>
+
+</body>
+</html>
